@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/uss1.uss?fileID=7433441132597879392&amp;guid=67e50b5ec3a6ea441a8ff5a6e78070e2&amp;type=3#uss1" />
+    <ui:VisualElement style="background-color: rgba(173, 204, 183, 255);">
+        <ui:Label text="Hello world" display-tooltip-when-elided="true" name="mylabel" style="font-size: 38px; white-space: nowrap; -unity-text-align: lower-center; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;" />
+        <ui:Button text="按我一下" display-tooltip-when-elided="true" name="mybutton" class="Btn" />
+        <ui:TextField picking-mode="Ignore" label="輸入密碼f " text="filler text" password="true" max-length="12" name="input-message" focusable="true" style="margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto; overflow: visible; font-size: 21px; -unity-text-align: upper-center; justify-content: center;" />
+    </ui:VisualElement>
+    <ui:GroupBox style="margin-left: auto; margin-right: auto; margin-top: 24px; margin-bottom: auto; flex-direction: column; justify-content: flex-end; overflow: visible;">
+        <ui:Toggle label="功能1" value="false" focusable="false" style="overflow: visible;" />
+        <ui:Toggle label="功能2" focusable="false" style="overflow: visible;" />
+    </ui:GroupBox>
+</ui:UXML>
